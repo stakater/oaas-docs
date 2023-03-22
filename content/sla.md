@@ -81,7 +81,7 @@ This availability type requires enabling the HA mode for components.
 
 ### Monitoring and Autoscaling Availability
 
-Monitoring and autoscaling availability means that monitoring and autoscaling are operating correctly. It defines the Prometheus availability level and auto scaling capabilities of components and data sources:
+Monitoring and autoscaling availability means that monitoring and autoscaling are operating correctly. It defines the Prometheus availability level and auto-scaling capabilities of components and data sources:
 
 * Prometheus
 * Vertical Pod Autoscaler
