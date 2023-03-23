@@ -91,7 +91,7 @@ This availability type requires enabling the HA mode for components.
 
 ### Extensions Availability
 
-Extensions availability means that additional Kubernetes components could be available. It sets out the availability level of components not directly involved in delivering applications to the runtime environment and their operation in the cluster, such as addons from Stakater listed on [Managed AddOns](../sre/addons/introduction.md).
+Extensions availability means that additional Kubernetes components could be available. It sets out the availability level of components not directly involved in delivering applications to the runtime environment and their operation in the cluster, such as addons from Stakater listed on [Managed AddOns](https://docs.stakater.com/content/sre/addons/introduction.html).
 
 This availability type requires enabling the HA mode for components.
 
@@ -128,7 +128,7 @@ If the SLA is violated for multiple availability types for the same cluster simu
 
 The following sections from the `SAAP` SLA also applies to the `Managed OpenShift Service` SLA:
 
-* [Excused Downtime](../saap-sla/saap-sla.md#6-excused-downtime)
-* [Monthly Uptime Percentage](../saap-sla/saap-sla.md#7-monthly-uptime-percentage)
-* [Limitations](../saap-sla/saap-sla.md#10-limitations)
-* [SLA Exclusions](../saap-sla/saap-sla.md#13-sla-exclusions)
+* [Excused Downtime](https://docs.stakater.com/content/saap-sla/saap-sla.html#6-excused-downtime)
+* [Monthly Uptime Percentage](https://docs.stakater.com/content/saap-sla/saap-sla.html#7-monthly-uptime-percentage)
+* [Limitations](https://docs.stakater.com/content/saap-sla/saap-sla.html#10-limitations)
+* [SLA Exclusions](https://docs.stakater.com/content/saap-sla/saap-sla.html#13-sla-exclusions)

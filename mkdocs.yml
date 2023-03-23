@@ -41,7 +41,7 @@ extra:
             make our documentation better.
 nav:
     - OpenShift as a Service:
-        - offer.md
+        - index.md
         - general-provisions.md
         - service-composition.md
         - business-hours.md
