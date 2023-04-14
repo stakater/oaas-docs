@@ -1,6 +1,6 @@
 # Composition of the Service
 
-`Version: 30 Jan 2023`
+`Version: 14 Apr 2023`
 
 The Managed OpenShift service includes, but is not limited to, the following services:
 
@@ -14,7 +14,7 @@ The Managed OpenShift service includes, but is not limited to, the following ser
 OpenShift clusters carried out by engineers of Stakater in accordance with their own
 production plans and internal technical regulations or as agreed upon by the Parties.
 
-Stakater does not guarantee the Service will meet the requirements and expectations of the Customer. The Customer agrees that the Service is carried out using Stakater's software tools that operate on an "as is" basis.
+The Customer agrees that the Service is carried out using Stakater's software tools that operate on an "as is" basis.
 
 The Customer undertakes to take into account the recommendations of Stakater concerning the operation of OpenShift clusters maintained by Stakater. These recommendations are aimed at preventing possible failures of the OpenShift clusters maintained by Stakater. The Customer shall be responsible for any risks arising due to ignoring such recommendations.
 
