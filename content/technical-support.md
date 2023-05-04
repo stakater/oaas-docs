@@ -1,6 +1,8 @@
 # Technical Support
 
-`Version: 30 Jan 2023`
+`Version: 4 May 2023`
+
+To create a support ticket, see [Stakater Support](https://support.stakater.com/index.html).
 
 Service Type | Non-Prod | Prod
 --- | --- | ---
