@@ -126,9 +126,9 @@ If the SLA is violated for multiple availability types for the same cluster simu
 
 ## Additional Sections
 
-The following sections from the `SAAP` SLA also applies to the `Managed OpenShift Service` SLA:
+The following sections also applies to this SLA:
 
-* [Excused Downtime](https://docs.stakater.com/content/saap-sla/saap-sla.html#6-excused-downtime)
-* [Monthly Uptime Percentage](https://docs.stakater.com/content/saap-sla/saap-sla.html#7-monthly-uptime-percentage)
-* [Limitations](https://docs.stakater.com/content/saap-sla/saap-sla.html#10-limitations)
-* [SLA Exclusions](https://docs.stakater.com/content/saap-sla/saap-sla.html#13-sla-exclusions)
+* [Excused Downtime](https://docs.stakater.com/saap/legal-documents/sla.html#6-excused-downtime)
+* [Monthly Uptime Percentage](https://docs.stakater.com/saap/legal-documents/sla.html#7-monthly-uptime-percentage)
+* [Limitations](https://docs.stakater.com/saap/legal-documents/sla.html#10-limitations)
+* [SLA Exclusions](https://docs.stakater.com/saap/legal-documents/sla.html#13-sla-exclusions)
