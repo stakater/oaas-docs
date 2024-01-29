@@ -1,6 +1,6 @@
 # Service Level Agreement (SLA)
 
-`Version: 30 Jan 2023`
+`Version: 29 Jan 2024`
 
 This SLA establishes conditions and a method for measuring the level of service at a given time, defines the guaranteed level of service, and sets out penalties for violating the guaranteed level of service.
 
@@ -10,7 +10,7 @@ Specifications and operating conditions of components running in the High Availa
 
 * The component is run in two or more instances to preserve availability in the case of a failure of a single instance
 * Enabling this mode requires additional computing resources
-* If there is more than one master node in the cluster, the High Availability mode is activated for all components by default
+* If there is more than one control plane node in the cluster, the High Availability mode is activated for all components by default
 * The HA mode can be turned off for individual components, such as authentication and monitoring, to reduce the cost of computing resources. However, we cannot guarantee the Service Level (SL) for such subsystems.
 * Control Plane — the cluster core — is considered running in the HA mode if it has at least three instances
 
@@ -126,9 +126,9 @@ If the SLA is violated for multiple availability types for the same cluster simu
 
 ## Additional Sections
 
-The following sections from the `SAAP` SLA also applies to the `Managed OpenShift Service` SLA:
+The following sections also applies to this SLA:
 
-* [Excused Downtime](https://docs.stakater.com/content/saap-sla/saap-sla.html#6-excused-downtime)
-* [Monthly Uptime Percentage](https://docs.stakater.com/content/saap-sla/saap-sla.html#7-monthly-uptime-percentage)
-* [Limitations](https://docs.stakater.com/content/saap-sla/saap-sla.html#10-limitations)
-* [SLA Exclusions](https://docs.stakater.com/content/saap-sla/saap-sla.html#13-sla-exclusions)
+* [Excused Downtime](https://docs.stakater.com/saap/legal-documents/sla.html#6-excused-downtime)
+* [Monthly Uptime Percentage](https://docs.stakater.com/saap/legal-documents/sla.html#7-monthly-uptime-percentage)
+* [Limitations](https://docs.stakater.com/saap/legal-documents/sla.html#10-limitations)
+* [SLA Exclusions](https://docs.stakater.com/saap/legal-documents/sla.html#13-sla-exclusions)
