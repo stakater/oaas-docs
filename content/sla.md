@@ -1,6 +1,6 @@
 # Service Level Agreement (SLA)
 
-`Version: 30 Jan 2023`
+`Version: 29 Jan 2024`
 
 This SLA establishes conditions and a method for measuring the level of service at a given time, defines the guaranteed level of service, and sets out penalties for violating the guaranteed level of service.
 
