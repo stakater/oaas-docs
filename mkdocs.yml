@@ -13,6 +13,8 @@ theme:
         primary: white
     features:
         - navigation.tabs
+        - content.code.copy
+        - content.code.select
 
 markdown_extensions:
   - admonition
@@ -24,8 +26,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra:
     analytics:
@@ -50,6 +52,8 @@ nav:
         - business-hours.md
         - technical-support.md
         - updating-clusters.md
+        - Runbooks:
+            - upgrades.md
         - sla.md
         - cost.md
     - Stakater Home: https://www.stakater.com/
