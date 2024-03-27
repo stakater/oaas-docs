@@ -24,7 +24,7 @@ oc get apirequestcount
 ![removed-apis](./images/oc-get-apirequestcount.png)
 
 ### Checking the Cluster Objects
-1. Confirm that no critical alerts exist on the cluster. Check the firing alerts in alertmanager via Web Console -> Observe -> Alerting and make sure there is no Critical alert firing, and that you are aware of the existing Info ones. Update will be blocked unless you resolve all critical alerts.
+1. Confirm that no critical alerts exist on the cluster. Check the firing alerts in Alertmanager via Web Console -> Observe -> Alerting and make sure there is no Critical alert firing, and that you are aware of the existing Info ones. Update will be blocked unless you resolve all critical alerts.
 
 1. Verify all nodes are in the ready state. 
 
@@ -64,7 +64,7 @@ oc get apirequestcount
 
     ![get-mcp](images/oc-get-mcp.png)
 
-1. Check the health of the etcd cluster. Visit the following link from Openshift documentation to replace an unhealthy etcd member if any. [Replacing an unhealthy etcd member
+1. Check the health of the etcd cluster. Visit the following link from OpenShift documentation to replace an unhealthy etcd member if any. [Replacing an unhealthy etcd member
 ](https://docs.openshift.com/container-platform/4.12/backup_and_restore/control_plane_backup_and_restore/replacing-unhealthy-etcd-member.html#restore-identify-unhealthy-etcd-member_replacing-unhealthy-etcd-member)
 
 1. The Customer needs to take a backup of the etcd cluster to ensure data safety in case of any issues during the upgrade process, see the official. [`Backing up etcd` Red Hat documentation for the applicable version](https://docs.openshift.com/container-platform/4.15/backup_and_restore/control_plane_backup_and_restore/backing-up-etcd.html)
