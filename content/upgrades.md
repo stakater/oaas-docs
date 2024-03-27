@@ -13,9 +13,10 @@ Physical presence will only be required if any on-prem machines need to be resta
 ## Pre-Upgrade Steps
 
 ### Removed Kubernetes APIs
+
 You can use the APIRequestCount API to track API requests and review whether any of them are using one of the removed APIs. We will need to migrate the API that will be removed in the next release.
 
-Run the following command and examine the REMOVEDINRELEASE column of the output to identify APIs that will be removed in a future release but are currently in use and share its output with Stakater. 
+Run the following command and examine the REMOVEDINRELEASE column of the output to identify APIs that will be removed in a future release but are currently in use and share its output with Stakater.
 
 ```sh
 oc get apirequestcount
@@ -24,9 +25,10 @@ oc get apirequestcount
 ![removed-apis](./images/oc-get-apirequestcount.png)
 
 ### Checking the Cluster Objects
+
 1. Confirm that no critical alerts exist on the cluster. Check the firing alerts in Alertmanager via Web Console -> Observe -> Alerting and make sure there is no Critical alert firing, and that you are aware of the existing Info ones. Update will be blocked unless you resolve all critical alerts.
 
-1. Verify all nodes are in the ready state. 
+1. Verify all nodes are in the ready state.
 
     ```sh
     oc get nodes
