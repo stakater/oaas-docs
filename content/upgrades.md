@@ -87,12 +87,11 @@ oc get apirequestcount
     oc -n openshift-config patch cm admin-acks --patch '{"data":{"ack-4.12-kube-1.26-api-removals-in-4.13":"true"}}' --type=merge
     ```
 
-2. From the web console, click Administration → Cluster Settings and review the contents of the Details tab.
-3. Ensure that the Channel is set to the correct channel for the version that you want to update to, such as stable-4.12.
+1. From the web console, click Administration → Cluster Settings and review the contents of the Details tab.
+1. Ensure that the Channel is set to the correct channel for the version that you want to update to, such as stable-4.12.
 Select a version to update to, and click Update.
-
 1. Monitor the upgrade process closely for any errors or warnings
-2. If any error occurs or manual intervention is required, Stakater will address it promptly
+1. If any error occurs or manual intervention is required, Stakater will address it promptly
 
 ## Post-Upgrade Steps
 
