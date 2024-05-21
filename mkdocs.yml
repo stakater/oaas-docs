@@ -1,66 +1,75 @@
-site_name: OpenShift as a Service
 docs_dir: content
-site_url: https://docs.stakater.com/oaas/
-repo_url: https://github.com/stakater/oaas-docs
 edit_uri: blob/main/content/
-use_directory_urls: false
-theme:
-    name: material
-    logo: assets/images/favicon.svg
-    favicon: assets/images/favicon.svg
-    custom_dir: custom_theme/
-    palette:
-        primary: white
-    features:
-        - navigation.tabs
-        - content.code.copy
-        - content.code.select
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-
 extra:
-    analytics:
-        provider: google
-        property: G-TTH1YYW5TX
-    consent:
-        title: Cookie consent
-        actions:
-            - accept
-            - reject
-            - manage
-        description: >-
-            We use cookies to recognize your repeated visits and preferences, as well
-            as to measure the effectiveness of our documentation and whether users
-            find what they're searching for. With your consent, you're helping us to
-            make our documentation better.
+  analytics:
+    property: G-TTH1YYW5TX
+    provider: google
+  consent:
+    actions:
+    - accept
+    - reject
+    - manage
+    description: We use cookies to recognize your repeated visits and preferences,
+      as well as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to make
+      our documentation better.
+    title: Cookie consent
+extra_css:
+- stylesheets/extra.css
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences:
+    custom_fences:
+    - class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format ''
+      name: mermaid
+- attr_list
+- pymdownx.emoji:
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg ''
+    emoji_index: !!python/name:material.extensions.emoji.twemoji ''
 nav:
-    - OpenShift as a Service:
-        - index.md
-        - general-provisions.md
-        - service-composition.md
-        - business-hours.md
-        - technical-support.md
-        - updating-clusters.md
-        - Runbooks:
-            - upgrades.md
-        - sla.md
-        - cost.md
-    - Stakater Home: https://www.stakater.com/
-    - SAAP: https://www.stakater.com/saap-kubernetes-openshift
-    - Consultancy: https://www.stakater.com/kubernetes-consultancy
-    - Events: https://www.stakater.com/events
-    - Platform Assessment: https://www.stakater.com/kubernetes-platform-assessment
-    - Careers: https://www.stakater.com/careers
+- OpenShift as a Service:
+  - index.md
+  - general-provisions.md
+  - service-composition.md
+  - business-hours.md
+  - technical-support.md
+  - updating-clusters.md
+  - Runbooks:
+    - upgrades.md
+  - sla.md
+  - cost.md
+- Stakater Home: https://www.stakater.com/
+- SAAP: https://www.stakater.com/saap-kubernetes-openshift
+- Consultancy: https://www.stakater.com/kubernetes-consultancy
+- Events: https://www.stakater.com/events
+- Platform Assessment: https://www.stakater.com/kubernetes-platform-assessment
+- Careers: https://www.stakater.com/careers
 plugins:
-    - search
+- search
+repo_url: https://github.com/stakater/oaas-docs
+site_name: OpenShift as a Service
+site_url: https://docs.stakater.com/oaas/
+theme:
+  cloud_security_alliance_logo_dark: assets/images/CSA_dark.png
+  cloud_security_alliance_logo_light: assets/images/CSA_light.png
+  custom_dir: dist/_theme
+  favicon: assets/images/favicon.svg
+  features:
+  - content.code.copy
+  - content.code.select
+  font:
+    code: Space Grotesk
+    text: Space Grotesk
+  footer_logo_dark: assets/images/footer-logo-dark.png
+  footer_logo_light: assets/images/footer-logo-light.png
+  hippa_compliant_logo_dark: assets/images/HC_dark.png
+  hippa_compliant_logo_light: assets/images/HC_light.png
+  logo: assets/images/favicon.svg
+  logo_dark: assets/images/logo-dark.png
+  logo_light: assets/images/logo-light.png
+  name: material
+  palette:
+    primary: white
+use_directory_urls: false
