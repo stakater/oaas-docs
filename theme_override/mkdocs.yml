@@ -9,8 +9,6 @@ theme:
   logo: assets/images/favicon.svg
   favicon: assets/images/favicon.svg
   custom_dir: dist/_theme
-  palette:
-    primary: white
   features:
     - content.code.copy
     - content.code.select

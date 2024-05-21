@@ -71,5 +71,22 @@ theme:
   logo_light: assets/images/logo-light.png
   name: material
   palette:
-    primary: white
+  - media: (prefers-color-scheme)
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to system preference
+  - accent: custom
+    media: '(prefers-color-scheme: light)'
+    primary: custom
+    scheme: default
+    toggle:
+      icon: material/brightness-7
+      name: Switch to light mode
+  - accent: custom
+    media: '(prefers-color-scheme: dark)'
+    primary: custom
+    scheme: slate
+    toggle:
+      icon: material/brightness-3
+      name: Switch to dark mode
 use_directory_urls: false
