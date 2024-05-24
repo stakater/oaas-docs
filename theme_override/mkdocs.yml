@@ -1,6 +1,9 @@
 site_name: OpenShift as a Service
+docs_dir: content
 site_url: https://docs.stakater.com/oaas/
 repo_url: https://github.com/stakater/oaas-docs
+edit_uri: blob/main/content/
+use_directory_urls: false
 
 theme:
   logo: assets/images/favicon.svg
