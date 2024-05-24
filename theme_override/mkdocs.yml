@@ -1,0 +1,33 @@
+site_name: OpenShift as a Service
+docs_dir: content
+site_url: https://docs.stakater.com/oaas/
+repo_url: https://github.com/stakater/oaas-docs
+edit_uri: blob/main/content/
+use_directory_urls: false
+
+theme:
+  logo: assets/images/favicon.svg
+  favicon: assets/images/favicon.svg
+  custom_dir: dist/_theme
+  features:
+    - content.code.copy
+    - content.code.select
+
+nav:
+  - OpenShift as a Service:
+      - index.md
+      - general-provisions.md
+      - service-composition.md
+      - business-hours.md
+      - technical-support.md
+      - updating-clusters.md
+      - Runbooks:
+          - upgrades.md
+      - sla.md
+      - cost.md
+  - Stakater Home: https://www.stakater.com/
+  - SAAP: https://www.stakater.com/saap-kubernetes-openshift
+  - Consultancy: https://www.stakater.com/kubernetes-consultancy
+  - Events: https://www.stakater.com/events
+  - Platform Assessment: https://www.stakater.com/kubernetes-platform-assessment
+  - Careers: https://www.stakater.com/careers
